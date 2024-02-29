@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
-import 'package:circular_reveal_animation/circular_reveal_animation.dart';
 import 'package:enamdua/pages/main/Setting/page.dart';
 import 'package:enamdua/pages/main/feeds/page.dart';
 import 'package:enamdua/pages/main/home/page.dart';
