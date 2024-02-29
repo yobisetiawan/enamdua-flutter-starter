@@ -71,6 +71,12 @@ class _MyHomePageState extends State<MyHomePage>
   }
 
   @override
+  dispose() {
+    _animationController.dispose(); // you need this
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       extendBody: true,
